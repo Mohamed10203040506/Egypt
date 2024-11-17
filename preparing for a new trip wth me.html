@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="trip.css">
+    <title>Registeration Form </title>
+</head>
+
+<body>
+    <form>
+        <h1>Preparing Your Next Trip With Us ....</h1>
+        <p id="description"></p>
+        <div>
+            <label> Full Name</label>
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="Mohamed@gmail.com" required>
+            </div>
+            <div>
+                <label>Phone Number</label>
+                <input type="tel" required>
+            </div>
+            <div>
+                <label>Gender</label>
+            </div>
+            <div>
+                <input type="radio" value="Male"><label for="Male">Male</label>
+            </div>
+            <div>
+                <input type="radio" value="Female"><label for="Female">Female</label>
+            </div>
+            <div>
+                <label>Arriving Date</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Departure Date</label>
+                <input type="date">
+            </div>
+            <div> <label>Profile Picture</label>
+                <input type="file">
+            </div>
+            <div>
+                <label>Passport</label>
+                <input type="file">
+            </div>
+            <div>
+                <label>Visa</label>
+                <input type="file">
+            </div>
+            <div>
+                <label>Where Would You like To Travel</label>
+                <select name="cities" id="cities">
+                    <option value="">Choose one</option>
+                    <option value="Luxor">Luxor</option>
+                    <option value="Cairo">Cairo</option>
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Aswan">Aswan</option>
+                </select>
+            </div>
+            <div>
+                <label>Please Check The Services That You Need</label>
+
+                <input type="checkbox" name="Airline-Tickets" id="Airline-Tickets">
+                <label for="Airline-Tickets" class="inline-label">Airline-Tickets</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Rental-car" id="Rental-car">
+                <label for="Rental-car" class="inline-label">Rental-car</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Hotel-Accomodations" id="Hotel-Accomodations">
+                <label for="Hotel-Accomodations" class="inline-label">Hotel-Accomodations</label>
+            </div>
+        </div>
+        </div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+
+</html>
